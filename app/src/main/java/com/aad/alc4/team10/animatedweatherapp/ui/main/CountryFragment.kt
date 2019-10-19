@@ -47,7 +47,7 @@ class CountryFragment : Fragment() {
                     columnCount <= 1 -> LinearLayoutManager(context)
                     else -> GridLayoutManager(context, columnCount)
                 }
-                adapter = MyCountryRecyclerViewAdapter(DummyContent.ITEMS, listener)
+              //  adapter = MyCountryRecyclerViewAdapter(DummyContent.ITEMS, listener)
             }
         }
         return view

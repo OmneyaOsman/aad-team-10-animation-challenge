@@ -8,9 +8,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.aad.alc4.team10.animatedweatherapp.R
-
-
-import com.aad.alc4.team10.animatedweatherapp.ui.main.RegionFragment.OnListFragmentInteractionListener
 import com.aad.alc4.team10.animatedweatherapp.ui.main.dummy.DummyContent.DummyItem
 
 import kotlinx.android.synthetic.main.fragment_region.view.*

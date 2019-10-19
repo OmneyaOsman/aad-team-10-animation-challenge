@@ -42,9 +42,9 @@ class MyCityRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = mValues[position]
-        holder.mIdView.text = item.id
+       /* holder.mIdView.text = item.id
         holder.mContentView.text = item.content
-
+*/
         with(holder.mView) {
             tag = item
             setOnClickListener(mOnClickListener)
@@ -54,11 +54,11 @@ class MyCityRecyclerViewAdapter(
     override fun getItemCount(): Int = mValues.size
 
     inner class ViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
-        val mIdView: TextView = mView.item_number
+        /* val mIdView: TextView = mView.item_number
         val mContentView: TextView = mView.content
-
-        override fun toString(): String {
-            return super.toString() + " '" + mContentView.text + "'"
+*/
+        /*override fun toString(): String {
+            *//*    return super.toString() + " '" + mContentView.text + "'"*//*
         }
-    }
-}
+*/
+    }}
